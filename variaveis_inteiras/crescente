@@ -1,5 +1,5 @@
-print("Diga duas váriaveis inteiras, e direi como fica em ordem crescente")
-def rio():
+print("Diga váriaveis inteiras, e direi como fica em ordem crescente")
+def mar():
     v1= int(input("Diga a primeira váriavel: "))
     v2= int(input("Diga a segunda váriavel: "))
     if v1 > v2:
@@ -16,4 +16,4 @@ def rio():
         print("Valores iguais não tem maior")
 
 
-rio()
+mar()
