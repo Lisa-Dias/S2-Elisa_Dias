@@ -10,3 +10,10 @@ def rio():
     elif v2 > v1:
         b = v2
         a = v1
+        print("O menor valor é o: ",v1)
+        print("O maior valor é o: ",v2)
+    else:
+        print("Valores iguais não tem maior")
+
+
+rio()
