@@ -1,0 +1,12 @@
+print("Diga duas váriaveis inteiras, e direi como fica em ordem crescente")
+def rio():
+    v1= int(input("Diga a primeira váriavel: "))
+    v2= int(input("Diga a segunda váriavel: "))
+    if v1 > v2:
+        b = v1
+        a = v2
+        print("O menor valor é o: ", v2)
+        print("O maior valor é o: ", v1)
+    elif v2 > v1:
+        b = v2
+        a = v1
